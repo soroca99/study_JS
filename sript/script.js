@@ -1,19 +1,23 @@
-console.log(1);
-alert('Hello!');
-console.log('Hello world!');
+let money = 'Доход за месяц';
+console.log(typeof money);
 
-//var let const
+let income = 'фриланс';
+console.log(typeof income);
 
+let addExpenses = 'ИНТЕРНЕТ, ТАКСИ, КОММУНАЛКА';
+console.log(addExpenses.length);
+console.log(addExpenses.toLowerCase());
+console.log(addExpenses.split(', '));
 
-let money = 'money';
-console.log('money: ', money);
+let deposit = true;
+console.log(typeof deposit);
 
-let income = 'income';
-var addExpenses = 33;
-const deposit = 100;
-let mission = 'mission';
-var period = 'period';
+let mission = 100000;
+console.log(mission);
 
+let period = 10;
+console.log('Период равен', + period + ' месяцев');
+console.log('Цель заработать', + mission + ' рублей/долларов/гривен/юани');
 
-let agePerson = 20;
-console.log('agePerson: ', agePerson);
+let budgetDay = 'доход за месяц / 30';
+console.log(budgetDay);
