@@ -1,4 +1,4 @@
-let money = 'Доход за месяц';
+let money = (1000, 'Доход за месяц');
 console.log(typeof money);
 
 let income = 'фриланс';
@@ -9,7 +9,7 @@ console.log(addExpenses.length);
 console.log(addExpenses.toLowerCase());
 console.log(addExpenses.split(', '));
 
-let deposit = true;
+const deposit = true;
 console.log(typeof deposit);
 
 let mission = 100000;
