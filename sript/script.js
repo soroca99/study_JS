@@ -1,4 +1,4 @@
-let money = (1000, 'Доход за месяц');
+let money = ('Доход за месяц', 1000);
 console.log(typeof money);
 
 let income = 'фриланс';
@@ -21,3 +21,4 @@ console.log('Цель заработать', + mission + ' рублей/долл
 
 let budgetDay = 'доход за месяц / 30';
 console.log(budgetDay);
+
